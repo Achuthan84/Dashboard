@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+@theme {
+    --color-primary: #242529;
+    --color-primary-dull: #373741;
+    --color-profit: #A6ABFF;
+    --color-bgcolor: #373741;
+    --color-BG_PAGE: '#191A1E';
+    --color-BG_CARD: '#222329';
+    --color-BG_HOVER: '#33343a';
+    --color-TEXT_PRIMARY: '#ffffff';
+    --color-TEXT_SECONDARY: '#a0a0a0';
+    --color-ORANGE_HIGHLIGHT: '#FF7043';
+    --color-PENDING_HIGHLIGHT: '#4FC3F7';
+    --color-STATUS_PAID_BG: '#3A3F45';
+    --color-STATUS_UNPAID_BG: 'rgba(255, 112, 67, 0.2)';
+}
